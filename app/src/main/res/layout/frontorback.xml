@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:text="DOES YOUR APPLICATION RUNS ONLY ON THE CLIENTSIDE MACHINE OR IT ALSO USES BACKEND? "
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:id="@+id/front"
+        android:background="#4a9fe9"
+        android:textColor="#ffffff"
+        android:text="ONLY FRONT END "/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:background="#4a9fe9"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:id="@+id/back"
+        android:text="FRONT END AND BACK END "/>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Carefully Select the features for client Side Implementation requisites  "
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        android:id="@+id/heading"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_height="match_parent">
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:layout_marginTop="0dp"
+        android:text="CROSS PLATFORM SUPPORT"
+        android:scaleType="fitXY"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientside1" />
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="ROBUST"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientside2"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="FLEXIBILITY"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientside3"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="EASE OF LEARNING"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientside4"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:text="SECURITY"
+        android:textSize="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientside5"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:text="LEVEL OF DATABASE ACCESS"
+        android:textSize="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientside6"
+        android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:text="MEMORY EFFICIENCY"
+            android:textSize="17dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clientside7"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:text="TWO WAY BINDING"
+            android:textSize="17dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clientside8"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:text="DYNAMIC BINDING"
+            android:textSize="17dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clientside9"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:text="CROSS BROWSER COMPATIBILITY"
+            android:textSize="17dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clientside10"
+            android:onClick="onCheckboxClicked"
+            />
+        <CheckBox
+            android:text="UX/UI SUPPORT"
+            android:textSize="17dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clientside11"
+            android:onClick="onCheckboxClicked"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:id="@+id/clientnext"
+            android:text="NEXT"
+           />
+</LinearLayout>
+   </ScrollView>
+</FrameLayout>

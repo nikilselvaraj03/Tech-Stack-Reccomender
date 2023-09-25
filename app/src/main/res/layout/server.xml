@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SERVER"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/heading"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="CROSS PLATFORM SUPPORT"
+        android:scaleType="fitXY"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server1" />
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="OPEN SOURCE"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server2" />
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="REAL TIME WEB COMMUNICATION"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server3" />
+
+    <CheckBox
+        android:layout_marginTop="0dp"
+        android:text="SERVER AND HOSTING CAPABALITIES"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server4" />
+
+    <CheckBox
+        android:text="SECURITY"
+        android:textSize="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server5" />
+        <TextView
+            android:text="I/O BLOCKING STATUS/ CONCURRENCY "
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:text="SYNCHRONOUS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/server6"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:text="ASYNCHRONOUS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/server7"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+    <CheckBox
+        android:text="MODEL REUSABILITY"
+        android:textSize="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server8" />
+    <CheckBox
+        android:text="SCALABILITY"
+        android:textSize="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server9" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:id="@+id/next2_id"
+            android:text="NEXT"/>
+</LinearLayout>
+    </ScrollView>
+</FrameLayout>

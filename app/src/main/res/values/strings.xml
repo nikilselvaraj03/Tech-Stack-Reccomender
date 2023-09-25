@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CLU</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="semesterlist">
+        <item>SEM 1</item>
+        <item>SEM 2</item>
+        <item>SEM 3</item>
+        <item>SEM 4</item>
+        <item>SEM 5</item>
+        <item>SEM 6</item>
+        <item>SEM 7</item>
+        <item>SEM 8</item>
+    </string-array>
+</resources>
